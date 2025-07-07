@@ -1,21 +1,18 @@
 class Solution {
   int singleNumber(List<int> nums) {
     if(nums.length == 1) return nums[0];
+
     Map<int, int> map = {};
+    int sum = 0;
+
     for(int num in nums) {
-      if(map[num] == 0 || map[num] == null) {
+      if(map[num] == null) {
         map[num] = 1;
-      } else if(map[num] == 1) {
-        map[num] = 0;
+        sum += num;
+      } else {
+        sum -= num;
       }
     }
-  
-    for(var entry in map.entries) {
-      if(entry.value == 1) {
-        return entry.key;
-      }
-    }
-  
-    return -1;
+    return sum;
   }
 }
