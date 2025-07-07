@@ -1,5 +1,6 @@
 class Solution {
   int singleNumber(List<int> nums) {
+    if(nums.length == 1) return nums[0];
     Map<int, int> map = {};
     for(int num in nums) {
       if(map[num] == 0 || map[num] == null) {
