@@ -10,7 +10,7 @@ class Solution {
     for (int n in nums) {
       map[n] = (map[n] ?? 0) + 1;
       maxNum = max(maxNum, map[n]!);
-      if(maxNum > nums.length) return n;
+      if(maxNum > nums.length/2) return n;
     }
   
     return map.entries.firstWhere((element) => element.value == maxNum).key;
