@@ -14,6 +14,7 @@ class Solution {
         map[n] = map[n]! + 1;
       }
       maxNum = max(maxNum, map[n]!);
+      if(maxNum > nums.length) return n;
     }
   
     return map.entries.where((e) => e.value == maxNum).map((e) => e.key).toList()[0];
