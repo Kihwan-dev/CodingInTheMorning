@@ -5,6 +5,7 @@ class Solution {
   int majorityElement(List<int> nums) {
     if (nums.length == 1) return nums[0];
   
+    /*
     Map<int, int> map = {};
     int maxNum = 0;
     for (int n in nums) {
@@ -14,5 +15,16 @@ class Solution {
     }
   
     return map.entries.firstWhere((element) => element.value == maxNum).key;
+    */
+    int count = 1;
+    int candidate = nums.first;
+    for(int i = 1; i < nums.length; i++) {
+        count += (nums[i] == candidate) ? 1 : -1;
+        if(count == 0) {
+            candidate = nums[i];
+            count = 1;
+        }
+    }
+    return candidate;
   }
 }
