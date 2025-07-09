@@ -8,11 +8,7 @@ class Solution {
     Map<int, int> map = {};
     int maxNum = 0;
     for (int n in nums) {
-      if (map[n] == null) {
-        map[n] = 1;
-      } else {
-        map[n] = map[n]! + 1;
-      }
+      map[n] = (map[n] ?? 0) + 1;
       maxNum = max(maxNum, map[n]!);
       if(maxNum > nums.length) return n;
     }
