@@ -5,7 +5,7 @@ class Solution {
   int majorityElement(List<int> nums) {
     if (nums.length == 1) return nums[0];
   
-    /*
+    
     Map<int, int> map = {};
     int maxNum = 0;
     for (int n in nums) {
@@ -15,16 +15,24 @@ class Solution {
     }
   
     return map.entries.firstWhere((element) => element.value == maxNum).key;
-    */
-    int count = 1;
-    int candidate = nums.first;
-    for(int i = 1; i < nums.length; i++) {
-        count += (nums[i] == candidate) ? 1 : -1;
-        if(count == 0) {
-            candidate = nums[i];
-            count = 1;
-        }
+    /*
+    /// Boyer-Moore Voting 알고리즈
+    /// 찾고자 하는 요소가 배열의 절반 이상 차지할 때만 사용 가능
+    int count = 0;
+    int majority = 0;
+    
+    for (int i = 0; i < nums.length; i++)
+    {
+      if(count == 0)
+        majority = nums[i];
+     
+      if(majority == nums[i])
+        count++;
+      else
+        count--;
     }
-    return candidate;
+   
+    return majority;
+    */
   }
 }
