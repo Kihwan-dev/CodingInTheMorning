@@ -7,6 +7,7 @@ class Solution {
   /// Input  : prices = [7,1,5,3,6,4]
   /// Output : 5
   int maxProfit(List<int> prices) {
+    if(prices.length == 1) return 0;
     int buy = 99999;
     int sell = -1;
     int profit = 0;
