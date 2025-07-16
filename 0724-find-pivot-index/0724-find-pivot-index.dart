@@ -16,7 +16,7 @@ class Solution {
     }
   
     for(int i=0; i<nums.length; i++) {
-      if (leftSum * 2 == sum - nums[i]) {
+      if (leftSum == sum - nums[i] - leftSum) {
         return i;
       } 
       leftSum += nums[i];
