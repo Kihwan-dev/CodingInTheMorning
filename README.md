@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0283-move-zeroes) |
+| [0724-find-pivot-index](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0724-find-pivot-index) |
 ## Two Pointers
 |  |
 | ------- |
@@ -61,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0014-longest-common-prefix) |
+## Prefix Sum
+|  |
+| ------- |
+| [0724-find-pivot-index](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0724-find-pivot-index) |
 <!---LeetCode Topics End-->
