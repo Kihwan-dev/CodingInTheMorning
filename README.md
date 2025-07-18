@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1146-greatest-common-divisor-of-strings](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1236-n-th-tribonacci-number) |
 ## Dynamic Programming
 |  |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [1146-greatest-common-divisor-of-strings](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1146-greatest-common-divisor-of-strings) |
 ## Trie
 |  |
 | ------- |
