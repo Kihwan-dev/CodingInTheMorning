@@ -7,8 +7,8 @@ class Solution {
       int sum = 0;
 
       for(int i=0; i<num.toString().length; i++) {
-        sum = sum + (int.parse(num.toString()[i]) * int.parse(num.toString()[i]));
-        //sum += pow(int.parse(num.toString()[i]), 2).toInt();
+        //sum = sum + (int.parse(num.toString()[i]) * int.parse(num.toString()[i]));
+        sum += pow(int.parse(num.toString()[i]), 2).toInt();
       }
 
       if(sum == 1) return sum;
