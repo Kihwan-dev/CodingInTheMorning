@@ -2,8 +2,8 @@ class Solution {
     List<List<int>> findDifference(List<int> nums1, List<int> nums2) {
         
       return [
-        nums1.toSet().where((e) => !nums2.toSet().contains(e)).toList(),
-        nums2.toSet().where((e) => !nums1.toSet().contains(e)).toList(),
+        nums1.where((e) => !nums2.contains(e)).toSet().toList(),
+        nums2.where((e) => !nums1.contains(e)).toSet().toList(),
       ];
 
 
