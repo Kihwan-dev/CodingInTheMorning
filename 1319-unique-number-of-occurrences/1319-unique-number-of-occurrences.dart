@@ -8,6 +8,6 @@ bool uniqueOccurrences(List<int> arr) {
     map[n] = (map[n] ?? 0) + 1;
   }
 
-  return map.values.toList().join(" ") == map.values.toList().toSet().join(" ");
+  return map.values.toList().length == map.values.toList().toSet().length;
 }
 }
