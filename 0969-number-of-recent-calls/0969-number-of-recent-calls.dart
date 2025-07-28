@@ -1,15 +1,14 @@
 class RecentCounter {
 
-  List<int>? records;
+  List<int> records = [];
 
   RecentCounter() {
-    records = [];
   }
 
   int ping(int t) {
-    records!.add(t);
+    records.add(t);
     int count = 0;
-    for (var record in records!) {
+    for (var record in records) {
       if(t - 3000 <= record && record <= t) count++;
     }
     return count;
