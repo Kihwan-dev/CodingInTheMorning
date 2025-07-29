@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0169-majority-element) |
 | [0283-move-zeroes](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0283-move-zeroes) |
+| [0643-maximum-average-subarray-i](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0724-find-pivot-index) |
 | [0747-min-cost-climbing-stairs](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0747-min-cost-climbing-stairs) |
 | [1319-unique-number-of-occurrences](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1319-unique-number-of-occurrences) |
@@ -95,4 +96,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0969-number-of-recent-calls](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0969-number-of-recent-calls) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
