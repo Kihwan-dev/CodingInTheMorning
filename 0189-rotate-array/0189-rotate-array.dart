@@ -4,7 +4,6 @@ void rotate(List<int> nums, int k) {
 
   if(k > nums.length) {
     k %= nums.length;
-    print(k);
   }
 
   List<int> list = [];
