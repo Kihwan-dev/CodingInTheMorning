@@ -1,6 +1,11 @@
 class Solution {
+  /// # 2025.08.01 #80
+  /// ## 정렬된 배열에서 중복 제거 2
+  /// 정렬된 정수 배열 nums
+  /// 각 요소가 최대 2번 반복까지 남기고 제거
+  /// 최종 배열의 길이 리턴
   int removeDuplicates(List<int> nums) {
-    /* #1
+    /* #1 778ms
         if (nums.length <= 2) return nums.length;
         int currentNum = -10001;
         bool isExist = false;
@@ -21,7 +26,7 @@ class Solution {
         return nums.length;
         */
 
-    /*#2 */
+    // #2 376ms
     if (nums.length < 3) return nums.length;
 
     // int loopPoint = 0;
