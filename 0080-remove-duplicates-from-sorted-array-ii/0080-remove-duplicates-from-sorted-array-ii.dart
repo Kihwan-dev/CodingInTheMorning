@@ -1,25 +1,24 @@
 class Solution {
-int removeDuplicates(List<int> nums) {
-  if (nums.length == 1) return 1;
+  int removeDuplicates(List<int> nums) {
+    if (nums.length <= 2) return nums.length;
 
-  int currentNum = -10001;
-  int length = 0;
-  bool isExist = false;
-  for (int i = 0; i < nums.length; i++) {
-    if (currentNum < nums[i]) {
-      // length++;
-      currentNum = nums[i];
-      isExist = true;
-    } else {
-      if (isExist) {
-        isExist = false;
+    int currentNum = -10001;
+    bool isExist = false;
+    for (int i = 0; i < nums.length; i++) {
+      int n = nums[i];
+      if (currentNum < n) {
+        currentNum = n;
+        isExist = true;
       } else {
-        nums.removeAt(i);
-        i--;
+        if (isExist) {
+          isExist = false;
+        } else {
+          nums.removeAt(i);
+          i--;
+        }
       }
     }
-  }
 
-  return nums.length;
-}
+    return nums.length;
+  }
 }
