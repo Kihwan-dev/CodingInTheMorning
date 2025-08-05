@@ -13,15 +13,17 @@ class Solution {
     final regex = RegExp(r'^[a-zA-Z0-9]+$');
 
     while (start < end) {
-      if (!regex.hasMatch(s[start]) || !regex.hasMatch(s[end])) {
+      //if (!regex.hasMatch(s[start]) || !regex.hasMatch(s[end])) {
         if (!regex.hasMatch(s[start])) {
           start++;
+          continue;
         }
         if (!regex.hasMatch(s[end])) {
           end--;
+          continue;
         }
-        continue;
-      }
+        //continue;
+      //}
         if (s[start].toLowerCase() != s[end].toLowerCase()) return false; 
       start++;
       end--;
