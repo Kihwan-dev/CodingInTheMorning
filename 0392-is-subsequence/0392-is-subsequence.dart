@@ -19,8 +19,7 @@ class Solution {
         if (tPoint == t.length) return false;
       }
       sPoint++;
-      if (sPoint == s.length) return true;
     }
-    return false;
+    return sPoint == s.length;
   }
 }
