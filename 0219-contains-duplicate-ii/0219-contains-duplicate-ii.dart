@@ -1,7 +1,7 @@
 class Solution {
 bool containsNearbyDuplicate(List<int> nums, int k) {
-  for (int i = 0; i < min(nums.length, i+k); i++) {
-    for (int j = i + 1; j < min(nums.length, j+k); j++) {
+  for (int i = 0; i < nums.length; i++) {
+    for (int j = i + 1; j < nums.length; j++) {
       if (j - i > k) break;
       if (nums[i] == nums[j] && j-i<= k) {
         return true;
