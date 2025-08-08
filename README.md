@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0189-rotate-array) |
+| [0219-contains-duplicate-ii](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0228-summary-ranges) |
 | [0283-move-zeroes](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0283-move-zeroes) |
 | [0643-maximum-average-subarray-i](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0643-maximum-average-subarray-i) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0202-happy-number) |
+| [0219-contains-duplicate-ii](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0219-contains-duplicate-ii) |
 | [1319-unique-number-of-occurrences](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Divide and Conquer
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0643-maximum-average-subarray-i) |
 ## Greedy
 |  |
