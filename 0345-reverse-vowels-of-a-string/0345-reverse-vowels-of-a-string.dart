@@ -19,11 +19,11 @@ class Solution {
     List<String> list = s.split("");
 
     while (start < end) {
-      while (start < end && !isVowel(s[start])) {
+      if (!isVowel(s[start])) {
         start++;
         continue;
       }
-      while (start < end && !isVowel(s[end])) {
+      if (!isVowel(s[end])) {
         end--;
         continue;
       }
