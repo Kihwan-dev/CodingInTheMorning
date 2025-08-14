@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0219-contains-duplicate-ii) |
 | [0290-word-pattern](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0290-word-pattern) |
+| [0383-ransom-note](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0383-ransom-note) |
 | [1319-unique-number-of-occurrences](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1392-find-the-difference-of-two-arrays) |
 ## Divide and Conquer
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0169-majority-element) |
+| [0383-ransom-note](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0383-ransom-note) |
 ## String
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0125-valid-palindrome) |
 | [0290-word-pattern](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0290-word-pattern) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0345-reverse-vowels-of-a-string) |
+| [0383-ransom-note](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0392-is-subsequence) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1146-greatest-common-divisor-of-strings) |
 ## Trie
