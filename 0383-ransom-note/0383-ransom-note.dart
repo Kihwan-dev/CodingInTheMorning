@@ -1,5 +1,7 @@
 class Solution {
 bool canConstruct(String ransomNote, String magazine) {
+  if (ransomNote.length > magazine.length) return false;
+
   List<String> rList = ransomNote.split("")..sort();
   int rIndex = 0;
   List<String> mList = magazine.split("")..sort();
