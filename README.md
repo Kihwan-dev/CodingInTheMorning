@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/0747-min-cost-climbing-stairs) |
 | [1319-unique-number-of-occurrences](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/Kihwan-dev/CodingintheMorning/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 ## Two Pointers
 |  |
 | ------- |
