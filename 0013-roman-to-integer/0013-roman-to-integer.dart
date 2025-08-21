@@ -24,10 +24,13 @@ int romanToInt(String s) {
   if (s.length == 1) return getNum(s);
   int answer = getNum(s[0]);
   for (int i = 1; i < s.length; i++) {
-    answer += getNum(s[i]);
-    if (getNum(s[i]) > getNum(s[i - 1])) {
-      answer -= getNum(s[i - 1]);
-      answer -= getNum(s[i - 1]);
+    int current = getNum(s[i]);
+    int prev = getNum(s[i - 1]);
+
+    answer += current;
+    if (current > prev) {
+      answer -= prev;
+      answer -= prev;
     }
   }
   return answer;
