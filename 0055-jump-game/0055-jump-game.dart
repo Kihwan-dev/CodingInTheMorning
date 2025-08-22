@@ -8,8 +8,7 @@ bool canJump(List<int> nums) {
       return false;
     }
     maxIndex = max(maxIndex, nums[i] + i);
-    if (nums[i] + i >= nums.length - 1) return true;
   }
-  return false;
+  return true;
 }
 }
