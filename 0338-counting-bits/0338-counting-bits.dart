@@ -7,7 +7,7 @@ class Solution {
 
     while (num != 0) {
       if (num % 2 == 1) cnt++;
-      num = (num / 2).toInt();
+      num ~/= 2;
     }
 
     return cnt;
